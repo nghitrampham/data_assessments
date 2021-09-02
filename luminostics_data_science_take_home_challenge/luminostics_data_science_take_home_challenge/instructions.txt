@@ -1,0 +1,10 @@
+Luminostics Data Science Take Home Challenge
+
+Instructions 
+Propose a quantitative (mathematical, statistical, algorithmic, etc.) method of classifying a test kit as COVID positive or negative using the output signals from Luminostic's analyzers. This model should be tuned to the data provided, but should be general enough to be re-tuned to future lots of test kits. Demonstrate any data exploration and modeling useful in developing this method. Whenever necessary, identify and justify your assumptions. Present your method and discuss its performance. Feel free to work along the lines of Luminostics's existing model, or develop one of your own. A notebook has been started here for your convenience.
+
+Background 
+Luminostics produces lateral flow diagnostics tests containing a control line and a test line. https://en.wikipedia.org/wiki/Lateral_flow_test The numerical value (signal intensity) of the test line is the single best known predictor of the disease status of the patient. Luminostics's current model for classifying positive or negative results compares the test line signal intensity (tl) to a threshold value. If the tl is higher than the threshold, the result is positive. Otherwise the result is negative. A substance called analyte, containing known concentrations of COVID protein, can be applied directly to create positive and negative results.
+
+Data Set 
+The Manufacturing Department has produced several new lots of diagnostic test kits. We expect slight lot-to-lot variation in the tests's potential for cl and tl signal intensity. Therefore, the diagnostic model (i.e. threshold) must be tuned to each lot. Analyte has been applied in different quantities to sampled test cartridges. The attached data are combined from manufacturing records and lab measurements using Luminostics's test analyzers.

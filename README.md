@@ -1,4 +1,4 @@
-#### This directory contains all the data take-home assessment I did for interviews at several companies. I was able to proceed to the next round of interview with all companies after submitting these assigments. 
+#### This directory contains all the data take-home assessments I did for interviews at several companies. I was able to proceed to the next round of interviews with all companies after submitting these assignments.  
 Clean notebooks/scripts:
 
 1. pocket_gems: retention_model.ipynb + pocket_gem.pdf (better to read the analysis in pocket_gemm.pdf first)
